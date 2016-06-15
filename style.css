@@ -1,0 +1,14 @@
+img{
+  max-height: 100px;
+  max-width: 100px;
+}
+.row{
+  padding: 10px;
+}
+body{
+  background: url("http://i.imgur.com/nx93yIG.jpg");
+  background-size: 100%;
+}
+h2{
+  color: blue;
+}
