@@ -32,4 +32,18 @@ h2{
 .home{
   height: 100vh;
 }
-
+article{
+  margin-top: 60px;
+  text-align: center;
+}
+#page3{
+  background-color: #aaaaaa;
+  width: 100%;
+}
+footer{
+  text-align: center
+}
+li{
+  display: inline-block;
+  text-align: center
+}
