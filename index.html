@@ -3,53 +3,134 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Michael Shamah</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Shamah - Full Stack Web Designer </title>
+
+  <link rel="stylesheet" href="./css/animate.css">
+
+  <link rel="stylesheet" href="./css/palette.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
 </head>
 <body>
-<div class="container">
-  <div class="home">
-  <div class="row">
-    <div id="name" class="four columns">
-    Michael Shamah
-    </div>
-    <div id= "image" class="four columns">
-      <img class="headshot" src="headshot.jpg" alt="">
-    </div>
-    <div id="developer" class="four columns">
-    Web Developer At General Assembly
-    </div>
+  <header id='nav'>
+      <section class='animated bounceInLeft'>
+        <h2 id='me'>Michael Shamah</h2>
+          <ul>
+            <li class='navB' id='projB'>projects</li>
+            <li class='navB' ><a href="https://drive.google.com/file/d/0B2KgHaDe15iGejFMSkNuY3lfdTg/view">resume</a></li>
+            <li class='navB' id='ringB'>contact</li>
+          </ul>
+      </section>
+  </header>
+  <div id='projects' class='displays'>
+      <section>
+          <div id="imgContainer">
+          <div class="row">
+            <div id="yahtzeeB">
+              <div class="mobileDesc">
+                <h3>Finger Baseball</h3>
+              </div>
+              <a href="http://michaelshamah.github.io/fingerBaseball/"><img src= ./img/FingerBaseballScreenShot.png alt=""></a>
+              <div class="mobileDesc">
+                <p>Javascript, CSS, HTML5, Jquery</p>
+              </div>
+            </div>
+            <div id="nagB">
+              <div class="mobileDesc">
+                <h3>Spotify Searcher</h3>
+              </div>
+              <a href=""><img src="./img/spotify.png" alt=""></a>
+              <div class="mobileDesc">
+                <p>Node.js, Express, MongoDB, Javascript </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div id="cookB">
+              <div class="mobileDesc">
+                <h3>Share Bear</h3>
+              </div>
+              <a href="http://share--bear.herokuapp.com/"><img src="./img/ShareBearwebsite.png" alt=""></a>
+              <div class="mobileDesc">
+                <p>React.js, Express, Node.js, PostgreSQL, Javascript</p>
+              </div>
+            </div>
+            <div id="happyB">
+              <div class="mobileDesc">
+                <h3>AMISAFE</h3>
+              </div>
+              <a href=""><img src="./img/Safe.png" alt=""></a>
+              <div class="mobileDesc">
+                <p>React Native, Native Base, PSQL, Node.js </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id='textContainer'>
+          <div id="nag">
+            <h3>Spotify Searcher</h3>
+            <p>Search artists, songs or albums based on populatrity on Spotify. Uses MongoDb to save your account information. Uses Node.js and Express to handle multiple pages.</p>
+            <ul>
+              <li>- MongoDB</li>
+              <li>- Node.js</li>
+              <li>- Express</li>
+            </ul>
+          </div>
+          <div id="cook">
+            <h3>Share Bear</h3>
+            <p>Share Bear is a lending application made in React that offers users the ability to register and share items with their neighbors. Guests are able to search by zipcode and browse through a list of available items to borrow. Once a guest registers, they can list items or make arrangements to borrow items from others.</p>
+            <ul>
+              <li>- React.js</li>
+              <li>- Express</li>
+              <li>- Node.js</li>
+              <li>- PostgreSQL</li>
+            </ul>
+          </div>
+          <div id='happy'>
+            <h3>AMISAFE</h3>
+            <p>AMISAFE is a mobile application that takes your current location and tells you the 5 most recent felonies in your area. YOu are able to sign in and save locations that you have been to. It was built using React Native.</p>
+            <ul>
+              <li>- React Native</li>
+              <li>- Native Base</li>
+              <li>- PSQL</li>
+              <li>- Node.js</li>
+            </ul>
+          </div>
+          <div id='yahtzee'>
+            <h3>Finger Baseball</h3>
+            <p>Finger Baseball is a single player game. It is a game of baseball playe against the computer. The player and computer put out a number between 1 and 4, if the batter gets the same number as the pitcher they are award the amount of bases. </p>
+            <ul>
+              <li>- Jquery</li>
+              <li>- Javascript</li>
+            </ul>
+          </div>
+        </div>
+      </section>
   </div>
-    <article>
-      <h2>ABOUT ME</h2>
-      <p>I'm an aspiring fullstack web developer learing both front and back end development in General Assembly. I havea passion for both vanilla Javascript and Jquery.I can solve any problem brought to me in Javascript. Of course offefiring any sort of food reward would always help speed along the process.</p>
-    </article>
-  <footer>
+  <div id="about" class='displays'>
+      <img src="./img/IMG_6120.jpg" alt="">
+      <div id="bio">
+        <p>Michael Shamah is a New Yorker Full-Stack Web Developer. Fluent in React.js, Exress.js, PSQL and most things Javascript.</p>
+      </div>
+
+  </div>
+  <div class='displays' id='contact'>
+    <!-- <ul id='number'>
+      <li class="animated bounceInUp" id="slackHandle">@mgershow</li>
+      <li class="animated bounceInUp" id='phoneNum'>516-521-5169</li>
+    </ul> -->
     <ul>
-      <li><a href="https://www.linkedin.com/in/michaelshamah1">LinkedIn</a></li>
-      <li><a href="https://www.github.com/michaelshamah">GitHub</a></li>
-      <li><a href="https://www.facebook.com/profile.php?id=100009956228502"> Facebook </a></li>
+      <li id='email'><a href="mailto:Shamah.michael@gmail.com"><img src="./img/images.png" alt=""></a></li>
+      <li id="github"><a href="https://github.com/MichaelShamah"><img src="./img/GitHub-Mark-32px.png" alt=""></a></li>
+      <li id="linkedin"><a href="https://www.linkedin.com/in/michaelshamah1"><img src="./img/LinkedIn.png" alt=""></a></li>
     </ul>
-  </footer>
   </div>
-  <div class ="home">
-    <article id='page3'>
-      <h2>PROJECTS</h2>
-      <h5>Finger Baseball</h5>
-      <img id="baseball" src="FingerBaseballScreenShot.png" alt="">
-      <p class="project">A finger baseball simulator. As  user, you enter a number as a batter or pitcher, and reiceve a hit, out, or strike based on what the computer generates. It was written in Javascript, HTML5, and CSS3. It also uses Jquery, Skeleton and Animate.css to help function and look better. Test it out <a href="http://michaelshamah.github.io/fingerBaseball/">here</a></p>
-      <h5>Spotfiy Searcher</h5>
-      <img id="spotify" src="spotify.png" alt="">
-      <p class="project"> A song searching app using Spotify's API. Technologies used include MVC architechure, MongoDB, AJAX and APIs. You can view it <a href="https://afternoon-river-83279.herokuapp.com/">here</a></p>
-      <h5>ShareBear</h5>
-      <img id="sharebear" src="ShareBearwebsite.png" alt="">
-      <p class="project"> A neigborhood sharing service that allows neibors to post, give, and borrow items to/from other neighbors. Technologies used include MVC architechure, APIs, PSQL, React and Bootstrap. You can view it <a href="https://share--bear.herokuapp.com/">here</a></p>
-
-    </article>
-  </div>
-
-</div>
 </body>
 </html>
+
+
+
+
